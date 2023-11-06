@@ -1,38 +1,83 @@
-.App {
-  text-align: center;
+body{
+    background-color: #61677A;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.main{
+   margin-top: 100px;
+   
+}
+.heading{
+    text-decoration: underline;
+    font-weight: bold;
+    
+}
+.card{
+    width: 600px;
+    height: 75vh;
+    border-radius: 16px;
+
+    
+}
+.answer-section{
+    margin-top: -50px;
+    }
+
+.answer-section button{
+   font-size: 16px;
+   color: #ffffff;
+   background-color: #272829;
+   padding: 5px;
+   border: 5px solid white;
+   cursor: pointer;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between ;
+   width: 200px;
+   font-family: Euclid Circular A;
+   text-align: center;
+        
+}
+.answer-section button:hover{
+    transition: border-radius .15s ease;
+    border-radius: 30px;
+    background-color: #6C5F5B;
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.question-count{
+    margin-left: 12px;
+}
+  .question-count span {
+    font-size: 28px;
+  }  
+.question-text{
+    margin-bottom: 140px;
+    width: 80%;
+    font-size: 22px;
+    margin-left: 12px;
+}
+.score-section{
+    font-size: 24px;
+}
+.question-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.timer{
+    background-color: white;
+    color: black;
+    border-radius: 16px;
+    padding: 12px;
+}
+.restart{
+
+margin-left:85px;    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.next{
+    margin-top: 250px;
+    border-radius: 10px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
